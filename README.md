@@ -1,4 +1,4 @@
 # Gitdemo
 This is my first repository file.
 </br>
-Author - Abhijit Kumar
+<h2>Author - Abhijit Kumar</h2>
