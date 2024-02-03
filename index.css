@@ -50,6 +50,9 @@ nav{
     align-items: center;
     gap: 2%;
 }
+.titles p{
+    margin: 0;
+}
 .titles a{
     text-decoration: none;
     color: #898E94;
@@ -72,10 +75,69 @@ nav{
     border: none;
     /* margin-left: 5rem; */
     font-size: 0.9rem;
-    padding: 0.3rem 2rem;
     background: transparent;
     border: 1px solid #30363D;
     border-radius: 0.2rem;
     color: white;
-    outline: none;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 40%;
+    cursor: pointer;
+    padding-left: 0.2rem;
 }
+.plc i{
+    font-size: 1.07rem;
+    padding: 0.2rem;
+    color: #848D97;
+}
+.plc .ri-terminal-line{
+    margin: 0.2rem 0;
+    padding: 0.3rem 0.4rem;
+    margin-left: 0.1rem;
+    transition: all 0.2s ease;
+    border-radius: 0.1rem;
+}
+.plc .ri-terminal-line:hover{
+    background-color: #171B20;
+}
+.plc>input{
+    font-size: 0.9rem;
+    padding: 0 0.3rem;
+    background: transparent;
+    border: none;
+    border-right: 1px solid #848D97;
+    color: #848D97;
+    outline: none;
+    width: 81%;
+    cursor: pointer;
+}
+.add{
+    background: transparent;
+    display: flex;
+    padding: 0 0.1rem;
+    border: 1px solid #30363D;
+    border-radius: 0.2rem;
+}
+.add i{
+    color: #848D97;
+    font-size: 1.3rem;
+    padding: 0.39rem 0 0.39rem 0.3rem;
+    /* background-color: red; */
+}
+.add:hover{
+    border: 1px solid #848D97;
+
+}
+.second-nav p{
+    color: #848D97;
+    margin: 0 1rem;
+}
+
+
+
+/* Custom tooltip */
+.custom {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+    }
