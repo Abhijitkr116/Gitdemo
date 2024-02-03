@@ -179,9 +179,10 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #171B20;
 }
 .mobile-screen{
-    background-color: #848D97;
+    background-color: #595f66;
     height: 75%;
     width: 25%;
     border-radius: 1rem;
