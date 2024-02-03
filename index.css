@@ -156,7 +156,9 @@ nav{
     top: 16%;
     right: 19%;
     position: absolute;
-    background-color: #ff00008d;
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(225, 225, 225, 0)); */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 1rem;
     border: 1px solid #898E94;
     display: flex;
