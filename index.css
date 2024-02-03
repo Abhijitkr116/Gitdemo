@@ -135,6 +135,64 @@ nav{
 }
 
 
+.page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-screen{
+    background-color: #848D97;
+    height: 75%;
+    width: 25%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.dashboard{
+    background-color: #171B20;
+    height: 28.7%;
+    width: 88%;
+    border-radius: 1rem;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard h2{
+    color: #fff;
+    font-weight: 400;
+    /* background-color: red; */
+    width: 90%;
+    margin-top: 0.5rem;
+}
+.dashboard p{
+    color: #848D97;
+    font-weight: 100;
+    /* background-color: #848D97; */
+    width: 90%;
+}
+/* .scene{
+    height: 33vh;
+    width: 88%;
+    background-color: #171B20;
+    border-radius: 1rem;
+    font-family: poppins;
+} */
+.dash1{
+    margin-top: 88rem;
+}
+.dash10{
+    margin-bottom: 1.5rem;
+}
+
 
 /* Custom tooltip */
 .custom {
