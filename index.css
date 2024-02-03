@@ -24,7 +24,7 @@ nav{
     width: 50%;
     padding: 1% 2%;
     gap: 2%;
-    color: white;
+    color: #848D97;
 }
 .first-nav .ri-menu-line{
     border: 1px solid #30363D;
@@ -133,6 +133,44 @@ nav{
     color: #848D97;
     margin: 0 1rem;
 }
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: #171B20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.page1-in{
+    height: 50%;
+    width: 50%;
+    background-color: #10691a9f;
+    border-radius: 1rem;
+    border: 1px solid #898E94;
+}
+.page2-in{
+    height: 50%;
+    width: 50%;
+    top: 16%;
+    right: 19%;
+    position: absolute;
+    background-color: #ff00008d;
+    border-radius: 1rem;
+    border: 1px solid #898E94;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.page2-in h2{
+    color: white;
+    font-family: poppins;
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+
 
 
 .page2{
